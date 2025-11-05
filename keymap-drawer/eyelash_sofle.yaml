@@ -353,7 +353,7 @@ layers:
   - {t: '9', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - '1'
+  - $$mdi:apple-keyboard-shift$$
   - '1'
   - '2'
   - '3'
@@ -369,7 +369,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - '&terminal'
   - {t: 'Sft+Gui+[', s: 'Sft+Gui+{'}
-  - {t: 'Sft+Gui+[', s: 'Sft+Gui+{'}
+  - {t: 'Sft+Gui+]', s: 'Sft+Gui+}'}
   - '&find'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&chrome'
