@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - '5'
   - A
   - S
   - D
@@ -41,7 +41,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - '5'
+  - {t: '$$mdi:keyboard-tab$$', h: LGUI}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -275,9 +275,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&kitty'
-  - '&chrome'
+  - '{'
+  - '}'
+  - {t: '-', s: _}
   - $
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -288,23 +288,23 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
   - (
   - )
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
   - '"'
+  - {t: '''', s: '"'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - _
   - {t: /, s: '?'}
+  - _
   - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
+  - {t: '=', s: +}
   - '#'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -333,30 +333,30 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '5', s: '%'}
-  - '&kitty'
   - '&chrome'
+  - '&kitty'
   - '&terminal'
-  - {t: '9', s: (}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '5', s: '%'}
+  - '4'
+  - '5'
   - '6'
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '7', s: '&'}
+  - '8'
+  - '9'
+  - '0'
+  - {t: '9', s: (}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - '1'
   - '1'
   - '2'
   - '3'
-  - '4'
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -370,7 +370,7 @@ layers:
   - '&find'
   - '&copy'
   - '&paste'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&find'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+Gui+[', s: 'Sft+Gui+{'}
   - {t: 'Sft+Gui+]', s: 'Sft+Gui+}'}
@@ -381,9 +381,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - Gui+$$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
