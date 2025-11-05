@@ -372,8 +372,8 @@ layers:
   - {t: 'Sft+Gui+]', s: 'Sft+Gui+}'}
   - '&find'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&chrome'
   - '&kitty'
+  - '&chrome'
   - '&terminal'
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
