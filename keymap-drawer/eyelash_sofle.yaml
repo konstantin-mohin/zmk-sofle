@@ -367,14 +367,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
-  - '&find'
-  - '&copy'
-  - '&paste'
-  - '&find'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&terminal'
   - {t: 'Sft+Gui+[', s: 'Sft+Gui+{'}
-  - {t: 'Sft+Gui+]', s: 'Sft+Gui+}'}
+  - {t: 'Sft+Gui+[', s: 'Sft+Gui+{'}
+  - '&find'
   - {t: '$$mdi:transfer$$', type: trans}
+  - '&chrome'
+  - '&kitty'
+  - '&terminal'
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
