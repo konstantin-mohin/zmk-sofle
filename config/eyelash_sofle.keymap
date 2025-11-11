@@ -99,11 +99,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1            &kp N2          &kp N3        &kp N4     &kp N5        &kp UP_ARROW     &kp N6     &kp N7         &kp N8     &kp N9               &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q             &kp W           &kp E         &kp R      &kp T         &kp DOWN_ARROW   &kp Y      &kp U          &kp I      &kp O                &kp P       &kp BSLH
-&mo 5       &kp A             &kp S           &kp D         &kp F      &kp G         &kp LEFT_ARROW   &kp H      &kp J          &kp K      &kp L                &kp SEMI    &kp APOS
-&kp LSHFT   &mt LEFT_SHIFT Z  &kp X           &kp C         &kp V      &kp B         &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA  &mt RIGHT_SHIFT DOT  &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL         &kp LEFT_SHIFT  &mt LGUI TAB  &kp SPACE  &kp ESCAPE    &kp ENTER        &kp ENTER  &kp BACKSPACE  &mo 4      &kp RIGHT_SHIFT      &kp DELETE
+&kp ESC         &kp N1     &kp N2          &kp N3        &kp N4     &kp N5        &kp UP_ARROW     &kp N6     &kp N7         &kp N8     &kp N9           &kp N0                &kp BACKSPACE
+&kp TAB         &kp Q      &kp W           &kp E         &kp R      &kp T         &kp DOWN_ARROW   &kp Y      &kp U          &kp I      &kp O            &kp P                 &kp BSLH
+&kp LEFT_SHIFT  &kp A      &kp S           &kp D         &kp F      &kp G         &kp LEFT_ARROW   &kp H      &kp J          &kp K      &kp L            &mt RIGHT_SHIFT SEMI  &kp APOS
+&kp LSHFT       &lt 5 Z    &kp X           &kp C         &kp V      &kp B         &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA  &lt 4 DOT        &kp FSLH              &kp ENTER
+&kp C_MUTE      &kp LCTRL  &kp LEFT_SHIFT  &mt LGUI TAB  &kp SPACE  &kp ESCAPE    &kp ENTER        &kp ENTER  &kp BACKSPACE  &mo 4      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -155,7 +155,7 @@
 &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS         &kp DOLLAR         &kp PERCENT     &trans  &trans             &trans            &trans            &trans           &trans  &trans
 &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp QUESTION    &trans  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp SINGLE_QUOTE  &trans           &trans  &trans
 &trans  &kp SLASH             &kp UNDER              &trans            &kp EQUAL          &kp POUND       &trans  &trans             &trans            &trans            &kp RIGHT_SHIFT  &trans  &trans
-&trans  &trans                &trans                 &trans            &trans             &trans          &trans  &trans             &trans            &trans            &trans           &trans
+&trans  &trans                &trans                 &kp LEFT_SHIFT    &trans             &trans          &trans  &trans             &trans            &trans            &trans           &trans
             >;
 
             display-name = "layer4";
@@ -164,12 +164,14 @@
 
         layer_5 {
             bindings = <
-&trans  &trans          &trans        &trans                    &trans                     &trans          &trans  &chrome         &kitty        &terminal     &trans           &trans  &trans
-&trans  &kp N5          &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6               &kp N9          &trans  &kp N7          &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &kp N9  &trans
-&trans  &kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2              &kp NUMBER_3               &kp NUMBER_0    &trans  &kp LEFT_ARROW  &kp DOWN      &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp LEFT_ALT    &trans        &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &find           &trans  &kitty          &trans        &trans        &kp RIGHT_SHIFT  &trans  &trans
-&trans  &trans          &trans        &kp LEFT_SHIFT            &kp LG(SPACE)              &kp ENTER       &trans  &trans          &trans        &trans        &trans           &trans
+&trans  &trans          &trans        &trans                    &trans                     &trans          &trans  &chrome         &kitty        &terminal        &trans           &trans     &trans
+&trans  &kp N5          &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6               &terminal       &trans  &kp N7          &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0     &terminal  &trans
+&trans  &kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2              &kp NUMBER_3               &kp NUMBER_0    &trans  &kp LEFT_ARROW  &kp DOWN      &kp UP_ARROW     &kp RIGHT_ARROW  &trans     &trans
+&trans  &trans          &kp LEFT_ALT  &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &find           &trans  &kitty          &chrome       &trans           &kp RIGHT_SHIFT  &trans     &trans
+&trans  &trans          &trans        &kp LEFT_SHIFT            &kp LG(SPACE)              &kp ENTER       &trans  &trans          &trans        &kp RIGHT_SHIFT  &trans           &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
     };
 };
